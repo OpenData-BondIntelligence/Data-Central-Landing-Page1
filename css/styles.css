@@ -4522,16 +4522,10 @@ textarea.form-control-lg {
 
 .rel-val {
   text-align: center;
-<<<<<<< HEAD
   padding-bottom: 20px;
 }
 .rel-val1 {
   padding-top: 50px;
-=======
-}
-.rel-val1 {
-  padding-top: 25px;
->>>>>>> 70b217d3a508ac7744790f71991ae63767fef616
   background-color: rgb(19, 23, 34);
   color: white;
   padding-bottom: 10px;
