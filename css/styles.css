@@ -515,6 +515,10 @@ progress {
   }
 }
 
+.Its-all-about-data {
+  background-color: white;
+}
+
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -4526,12 +4530,16 @@ textarea.form-control-lg {
 
 .rel-val {
   text-align: center;
-  padding-bottom: 20px;
   border: 15px solid rgb(19, 23, 34);
 }
 .rel-val1 {
   padding-top: 50px;
   padding-bottom: 10px;
+}
+
+.big-text1 {
+  font-size: 35px;
+  color: #3270e3;
 }
 
 .card {
