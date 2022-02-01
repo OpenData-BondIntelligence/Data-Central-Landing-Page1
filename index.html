@@ -21,6 +21,7 @@
             <div class="container">
                 <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/MicrosoftTeams-image.png" width="75px" height="50px">Central</a> -->
                 <a class="navbar-brand" href="index.html"><img src="assets/img/Logo1.png" height="25%" width="25%">Data  Central</a>
+                <div id="time"></div>
                 <a class="btn btn-primary" href="https://bondintelligence.datacentral.us/" target="blank">Log In</a>
             </div>
         </nav>
@@ -33,6 +34,24 @@
                             <!-- Page heading-->
                             <h1 class="mb-5">A.I. for Fixed Income Traders</h1>
                             <h1 class="mb-5">Know First, Act Faster!</h1>
+                                <!-- Signup form-->
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- * * SB Forms Contact Form * *-->
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- This form is pre-integrated with SB Forms.-->
+                            <!-- To make this form functional, sign up at-->
+                            <!-- https://startbootstrap.com/solution/contact-forms-->
+                            <!-- to get an API token!-->
+                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <!-- Email address input-->
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                    </div>
+                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                                </div>
                                 <!-- Submit success message-->
                                 <!---->
                                 <!-- This is what your users will see when the form-->
@@ -56,28 +75,30 @@
             </div>
         </header>
         <!-- Icons Grid-->
+        
         <section class="features-icons bg-light text-center">
+            <h1 class="mb-5">It's all about data</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>What is Datacentral.us?</h3>
-                            <p class="lead mb-0">Get diversified exposure to themes across sectors, ratings and geographies.</p>
+                            <h3>Data History</h3>
+                            <p class="lead mb-0">Predictive analytics helps you predict the future, enabling you to spot opportunities even earlier and increase returns. </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Digital First</h3>
-                            <p class="lead mb-0">Designed from the ground up for a world with electronic markets,, and portfolio trading</p>
+                            <h3>More Data</h3>
+                            <p class="lead mb-0">Allows you to do a better job selecting the optimal securities for a given strategy and client mandate.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Deep Learning Powered</h3>
-                            <p class="lead mb-0">datacentral.us uses deep learning to address bond illiquidity and high bid-ask spreads</p>
+                            <h3>Timely Data</h3>
+                            <p class="lead mb-0">So you can spot opportunities faster and provide better returns on the securities. Know First, Act Faster! </p>
                         </div>
                     </div>
                 </div>
@@ -101,12 +122,25 @@
         </div>
 
         <section class="showcase">
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Core Platforms.mkv" height="100%" width="100%"></video></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>Core Platform</h2>
+                    <p class="lead mb-0"></p>
+                    <ul><p class="lead mb-0"><b>Data Exploration</b>: Access many realtime and historical datasets in one place.</p></ul>
+                    <ul><p class="lead mb-0"><b>Business Intelligence</b>: Filter and visualize the characteristics and values of data based on your needs.</p></ul>
+                    <ul><p class="lead mb-0"><b>Data Analytics</b>: Built in mathematical and statistical analysis with easy user customization.</p></ul>
+                </div>
+            </div>
+
             <div class="container-fluid p-0">
                 <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img"><video loop autoplay muted src="assets/img/Scroll down.mp4" height="100%" width="100%"></video></iframe></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img"><video loop autoplay muted src="assets/img/Scroll down.mp4" height="100%" width="100%"></video></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Benchmark Vs. Stratage Tearsheet</h2>
-                        <p class="lead mb-0"></p>
+                        <h2>Tear Sheet</h2>
+                        <ul><p class="lead mb-0"><b>Sales & Marketing</b>: One touch performance summary generation for customer communication & sales.</p></ul>
+                        <ul><p class="lead mb-0"><b>Performance Evaluation</b>: Realtime and historical performance comparison of your strategy/portfolio/asset relative to a benchmark.</p></ul>
+                        <ul><p class="lead mb-0"><b>Strategy Compliance</b>: Asset allocation (performance, risk) in comparison with the portfolio's target strategy. </p></ul>
                         <a href="http://"></a>
                     </div>
                 </div>
@@ -114,7 +148,9 @@
                     <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Scroll Down2.mp4" height="100%" width="100%"></video></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Intelligent Insights</h2>
-                        <p class="lead mb-0"></p>
+                        <p class="lead mb-0"><b>Finder</b>: Automatically generated recommendations of securities based on value and risk, refreshed every 30 seconds.</p>
+                        <p class="lead mb-0"><b>Visualizer</b>: Visually explore the fixed income universe utilizing advanced modeling techniques, identify the securities you want.</p>
+                        <p class="lead mb-0"><b>Portfolio Optimizer/Visualizer</b>: Visually evaluate your portfolio based on value and risk.</p>
                     </div>
                 </div>
                 <div class="row g-0">
