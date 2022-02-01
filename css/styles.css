@@ -4527,11 +4527,10 @@ textarea.form-control-lg {
 .rel-val {
   text-align: center;
   padding-bottom: 20px;
+  border: 15px solid rgb(19, 23, 34);
 }
 .rel-val1 {
   padding-top: 50px;
-  background-color: rgb(19, 23, 34);
-  color: white;
   padding-bottom: 10px;
 }
 
