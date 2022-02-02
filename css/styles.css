@@ -515,10 +515,6 @@ progress {
   }
 }
 
-.Its-all-about-data {
-  background-color: white;
-}
-
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -4535,6 +4531,12 @@ textarea.form-control-lg {
 .rel-val1 {
   padding-top: 50px;
   padding-bottom: 10px;
+}
+
+.rel-val1 li {
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
 }
 
 .big-text1 {
