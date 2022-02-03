@@ -2328,6 +2328,56 @@ progress {
   background-color: #dde0e3;
 }
 
+.Our-Stratagytext {
+  text-align: left;
+  justify-content: left;
+  line-height: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 25px;
+}
+
+.container123 {
+  padding: 2px 16px;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+table {
+  width: max-content;
+}
+
+.table1 {
+  justify-content: left;
+  float: left;
+}
+
+.table2 {
+  justify-content: right;
+  float: right;
+}
+
+#st-box {
+  padding:20px;
+  background-color:#decddd;
+  width: fit-content;
+}
+
+#rd-box {
+  padding:20px;
+  background-color:#cedddd;
+  width: fit-content;
+}
+
 .form-control-plaintext {
   display: block;
   width: 100%;
@@ -3049,6 +3099,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+  margin: -2%;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4064,6 +4115,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+  
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -4537,6 +4589,10 @@ textarea.form-control-lg {
   text-align: center;
   margin-left: auto;
   justify-content: center;
+}
+
+.rel-val1 h4 {
+  color: #0a58ca;
 }
 
 .big-text1 {

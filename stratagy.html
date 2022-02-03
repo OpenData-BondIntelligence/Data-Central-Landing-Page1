@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Our Strategy</title>
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="assets/img/Favicon.png">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/MicrosoftTeams-image.png" width="75px" height="50px">Central</a> -->
+                <a class="navbar-brand" href="index.html"><img src="assets/img/Logo1.png" height="25%" width="25%">Data  Central</a>
+                <div id="time"></div>
+                <a class="btn btn-primary" href="#">About Us</a>
+                <a class="btn btn-primary" href="stratage.html">Strategy</a>
+                <a class="btn btn-primary" href="https://bondintelligence.datacentral.us/" target="blank">Log In</a>
+            </div>
+        </nav>
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <h1 class="mb-5">Our  Stratagy</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="features-icons bg-light text-center">
+            <div class="container">
+            <div class="Our-Stratagytext">
+            
+                <ul><div class="card">
+                <div class="container123" id="st-box">
+                  <h4><b>&#8226; What does datacentral.us do?,</b></h4> 
+                  <p>Datacentral.us brings the power of deep learning to alpha generation for fixed income products. Our initial focus is on corporate bonds, with coverage of both US and European bonds.</p> 
+                </div>
+              </div></ul>
+
+              <ul><div class="card">
+            <div class="container123" id="rd-box">
+            <h4>&#8226; How are top opportunities identified?,</h4>
+            <p>Each day, the engine makes predictions for all US and European corporate bonds in the data set, producing both a predicted change in each bond's spread (over the risk-free benchmark) as well as a confidence score for the prediction. Some of the top predictions with a confidence score over a threshold are selected.</p>
+            </div>
+            </div></ul>
+
+            <ul><div class="card">
+                <div class="container123" id="st-box">
+            <h4>&#8226; How are models evaluated?,</h4>
+            <p>The Hit-Rate, Returns and T-Stat correspond to an evaluation of live, out-of-sample predictions made by the deep learning engine. Everyday, the engine makes predictions which are archived and revisited 14 days later for evaluation; <br>the metrics shown here are computed based on these.
+                Most bonds do not trade daily. Hence, the evaluation procedure is somewhat different from what would be used in, say, <br>equity quant investing. After market close everyday, we consider each bond that had a transaction that day and check if our engine proposed a trade for it 14 days ago. We mark the exit price as the average transaction price of the bond seen on the day of evaluation. As mentioned above, the trade direction, size and entry price had been set 14 days ago. The performance statistics below are computed using this information. </p>
+            </div></ul>
+        </div>
+
+        <ul><div class="card">
+                    <div class="container123" id="rd-box">
+            <h4>&#8226; What is the Bond Activity Map?,</h4>
+            <p>The Bond Activity Map places bonds with similar price movements close to each other. Price movements at different time scales over the last 28 days are taken into consideration. Clusters of bonds indicate closely correlated instruments. This leverages state-of-the-art techniques in machine learning and is not based on classical tools like Prinicipal Component Analysis.
+<br>
+                Each dot represents a single bond. Bond identifiers and characteristics show up on hovering over the dot. The larger dots mark trading opportunities identified by the model.</p>
+            </div>
+        </div></ul>
+   
+        <ul><div class="card">
+                    <div class="container123" id="st-box">
+            <h4>&#8226; How is T-Stat computed?,</h4>
+            <p>T-Stat or T-Statistic is the measure of the consistency of performance across trades. The T-Stat here is computed as the ratio of the mean of per-trade pnl to the standard deviation of per-trade pnl, adjusted for the number of trades. It relates to the Sharpe or Information ratio. A T-Stat in the 1-2 range indicates good consistent performance, while t-stats over 3 indicate great consistent performance.</p>
+            </div>
+            </div></ul>
+
+            <ul><div class="card">
+            <div class="container123" id="rd-box">
+            <h4>&#8226; How is your hit-rate computed?,</h4>
+            <p>Percentage of profitable trades where the spread change was in the direction predicted by the engine. A hit-rate over 50% indicates out-of-sample predictive power. Hit rates of 50-65% are typical in successful quant trading.
+            </p>
+            </div>
+            </div></ul>
+
+            <ul><div class="card">
+                <div class="container123" id="st-box">
+            <h4>&#8226; What is neighborhood price action?,</h4>
+            <p>We use machine learning techniques to generate a landscape of bonds informed by their recent price movements. Where a bond lies in this landscape is a reflection of the market's valuation of its credit risk. This measure moves faster and, we believe, is less biased than bond ratings. If a highly rated bond (ranked 10 or lower) starts behaving like its lower rated peers, that would suggest the bond is under pressure. Here we show the average rating of a bond's neighbors in this landscape (green points) and compare it to the bond's own rating (red line).
+<br>
+            For example, the market reaction to the COVID-19 pandemic has resulted in oil companies losing favor while cloud-based businesses have gained favor. This is easily seen in the neighborhood price-action graph for Petroleos Mexicanos and Netflix on April 17, 2020. While Petroleos Mexicanos is an investment grade bond, it has traded like a high yield bond. On the other hand, Netflix, rated as a high-yield bond, has traded like an investment bond.
+            Lower ratings less than 11 correspond to Investment Grade bonds while ratings 11 and greater correspond to High Yield bonds</p>
+            </div>
+        </div></ul>
+ 
+            </div>
+        </div>
+    </section>
+            <!-- Footer-->
+            <footer class="footer bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                            <ul class="list-inline mb-2">
+                            </ul>
+                            <p class="text-muted small mb-4 mb-lg-0">&copy; datacentral.us 2022. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item me-4">
+                                    <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                                </li>
+                                <li class="list-inline-item me-4">
+                                    <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
