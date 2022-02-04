@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@300&display=swap');
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Landing Page v6.0.4 (https://startbootstrap.com/theme/landing-page)
@@ -74,6 +75,10 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -695,6 +700,21 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navlinks1 {
+  width: 25%;
+  float: right;
+}
+
 
 .col {
   flex: 1 0 0%;
@@ -2343,6 +2363,10 @@ progress {
   transition: 0.3s;
   width: 40%;
   border-radius: 25px;
+}
+
+.comething {
+  background-color: white;
 }
 
 .container123 {
@@ -4005,6 +4029,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: yellow;
 }
 
 .nav-link {
@@ -11395,11 +11420,11 @@ textarea.form-control-lg {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
+  background-color:#343a40;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  /* padding-bottom: 8rem; */
 }
 header.masthead:before {
   content: "";
