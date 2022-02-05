@@ -2365,29 +2365,12 @@ progress {
   border-radius: 25px;
 }
 
-.comething {
-  background-color: white;
-}
 
 .container123 {
-  padding: 2px 16px;
+  /* padding: 2px 16px; */
   justify-content: center;
-  width: 100%;
+  width: 200%;
   height: 50%;
-}
-
-table {
-  width: max-content;
-}
-
-.table1 {
-  justify-content: left;
-  float: left;
-}
-
-.table2 {
-  justify-content: right;
-  float: right;
 }
 
 #st-box {
@@ -4618,6 +4601,7 @@ textarea.form-control-lg {
 
 .rel-val1 h4 {
   color: #0a58ca;
+  font-size: 35px;
 }
 
 .big-text1 {
