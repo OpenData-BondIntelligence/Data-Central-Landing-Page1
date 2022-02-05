@@ -4609,6 +4609,16 @@ textarea.form-control-lg {
   color: #3270e3;
 }
 
+.container12 {
+  display: flex;
+}
+
+.container12 div {
+  align-items: center;
+  text-align: center;
+  width: 55%;
+}
+
 .card {
   position: relative;
   display: flex;
