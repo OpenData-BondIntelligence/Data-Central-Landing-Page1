@@ -633,6 +633,8 @@ progress {
   display: inline-block;
 }
 
+
+
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
@@ -4593,6 +4595,10 @@ textarea.form-control-lg {
   padding-bottom: 10px;
 }
 
+.material-icons.active {
+  color: blue;
+  }
+
 .rel-val1 li {
   text-align: center;
   margin-left: auto;
@@ -4612,6 +4618,22 @@ textarea.form-control-lg {
 .container321 {
   border: 2px solid #ccc;
   background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.form1{
+  border: 2px solid #ccc;
+  background-color: rgba(0, 0, 0, .3);
+  text-align: center;
+  justify-items: center;
+}
+
+
+.container3221 {
+  border: 2px solid #ccc;
+  background-color: white;
   border-radius: 5px;
   padding: 16px;
   margin: 16px 0
@@ -4762,6 +4784,13 @@ textarea.form-control-lg {
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.center-cropped {
+  width: 300px;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .card-img,
