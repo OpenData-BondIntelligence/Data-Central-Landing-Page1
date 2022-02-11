@@ -49,33 +49,7 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="c6b6a1ff-e673-4191-9b1a-40a57b7b1bdf">
-                                <!-- Email address input-->
-                                <div class="row">
-                                    <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-                                    </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        <p>To activate this form, sign up at</p>
-                                        <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            </form>
+                            <a class="btn btn-primary" href="#contactform">Request Preview</a>
                         </div>
                     </div>
                 </div>
@@ -116,9 +90,9 @@
         <!-- Image Showcases-->
         <div class="big-showcase">
             <section class="testimonials text-center bg-light">  
+                <div class="container3211">
             <div class="rel-val1">
                 <div class="container">
-                
                 <br>
                 <h4>Zoom, Pinch, Select. Try it out!</h4>
                 <p class="lead mb-0"><b>Boost your Performance </b>&#8226; Faster opportunity identification &#8226; Portfolio optimization &#8226; Better strategy alignment &#8226; Maximize investment performance &#8226; Benchmark comparison</p>
@@ -130,12 +104,13 @@
                 </div>
             </div>
             </div>
+        </div>
         </section>
         </div>
 <!-- Right Side text -->
         <section class="showcase">
             <div class="row g-0">
-                <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Core Platforms.mkv" height="100%" width="100%"></video></div>
+                <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Core Platforms.mp4" height="100%" width="100%"></video></div>
                 <div class="col-lg-6 my-auto showcase-text">
                     <h2>Core Platform</h2>
                     <p class="lead mb-0"></p>
@@ -205,7 +180,7 @@
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                        <h2 class="mb-4">Request a Preview</h2>
+                        <h2 class="mb-4">Request Preview</h2>
 
                         <!-- <iframe src="https://www.powr.io/contact-form/i/31495386#page"  he"></iframe> -->
                         
@@ -263,49 +238,38 @@
                                 <a class="btn btn-primary" target="blank">Submit</a>
                                 </form>
                                 </div> -->
-                                <div class="container px-5 my-5">
+
+
+                                <div id="contactform" class="container px-5 my-5">
 
                                     <form id="contactForm" data-sb-form-api-token="c6b6a1ff-e673-4191-9b1a-40a57b7b1bdf">
                                 
-                                        <div class="form-floating mb-3">
+                                        <div class="mb-3">
+                                
                                 
                                             <input class="form-control" id="fullName" type="text" placeholder="Full Name" data-sb-validations="required" />
-                                
-                                            <label for="fullName">Full Name</label>
                                 
                                             <div class="invalid-feedback" data-sb-feedback="fullName:required">Full Name is required.</div>
                                 
                                         </div>
                                 
-                                        <div class="form-floating mb-3">
+                                        <div class="mb-3">
+                                
                                 
                                             <input class="form-control" id="phoneNumber" type="text" placeholder="Phone Number " data-sb-validations="required" />
-                                
-                                            <label for="phoneNumber">Phone Number </label>
                                 
                                             <div class="invalid-feedback" data-sb-feedback="phoneNumber:required">Phone Number is required.</div>
                                 
                                         </div>
                                 
-                                        <div class="form-floating mb-3">
+                                        <div class="mb-3">
+                                
                                 
                                             <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                
-                                            <label for="emailAddress">Email Address</label>
                                 
                                             <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
                                 
                                             <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-                                
-                                        </div>
-                                
-                                        <div class="form-floating mb-3">
-                                
-                                            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                                
-                                            <label for="message">Message</label>
-                                
-                                            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                                 
                                         </div>
                                 
@@ -328,10 +292,10 @@
                                             <div class="text-center text-danger mb-3">Error sending message!</div>
                                 
                                         </div>
+                                <br>
+                                        <div class="d-grid">
                                 
-                                       <div class="d-grid">
-                                
-                                            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                                            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit Preview Request</button>
                                 
                                         </div>
                                 
@@ -356,16 +320,11 @@
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
-                            </li>
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
-                            </li>
-                        </ul>
+                        <!-- <li class="list-inline-item me-4"><a style="opacity: 0%; cursor:auto ;"href="#">this is an href this is an href this is an href this is an href this is an href</a>       </li> -->
+                        <li class="list-inline-item me-4"><a style="text-decoration: none; color: black;"href="insights.html">Insights</a></li>
+                        <li class="list-inline-item me-4"><a style="text-decoration: none; color: black;"href="about-us.html">About Us</a></li>
+                        <li class="list-inline-item me-4"><a style="text-decoration: none; color: black;"href="teams.html">Our Team</a></li>
+                    </ul>
                     </div>
                 </div>
             </div>
