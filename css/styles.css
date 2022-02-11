@@ -2190,6 +2190,27 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+.contact-form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background-color: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
 .form-label {
   margin-bottom: 0.5rem;
 }
