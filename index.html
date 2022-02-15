@@ -13,6 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <script src="https://kit.fontawesome.com/f337cc20ea.js" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
@@ -110,7 +111,7 @@
         <br>
         <br>
 <!-- Right Side text -->
-        <section class="showcase">
+        <section style="padding: 0;" class="showcase">
             <div class="row g-0">
                 <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Core Platforms.mp4" height="100%" width="100%"></video></div>
                 <div class="col-lg-6 my-auto showcase-text">
@@ -137,6 +138,7 @@
                     <div class="col-lg-6 text-white showcase-img"><video loop autoplay muted src="assets/img/Scroll Down2.mp4" height="100%" width="100%"></video></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Intelligent Insights</h2>
+                        <hr>
                         <p class="lead mb-0"><b>Finder</b>: Automatically generated recommendations of securities based on value and risk, refreshed every 30 seconds.</p>
                         <br>
                         <p class="lead mb-0"><b>Value Visualizer</b>: Visually explore the fixed income universe utilizing advanced modeling techniques, identify the securities you want.</p>
@@ -156,23 +158,51 @@
         </section>
         <!-- Testimonials-->
         <section style="background-color: #f8f9fa;" class="testimonials text-center bg-light">
-            <div class="container"><h1 style="font-size: 50px;">Value Propositons</h1>
-            <br>
-            <br>
-            
-            <div class="container12">
-                
-            <div><img src="assets/img/cash register.png"><h2>Low Transaction Costs</h2><br><p class="lead mb-0">Cutting edge prediction algorithms and market making to to eliminate bid-ask spread.</p></div>
-            <div><img src="assets/img/dark mode.png"><h2>Accurate Theme Exposure</h2><br><p class="lead mb-0">Cross market activity leveraged to correctly identify replacement bonds.</p></div>
-            <div><img src="assets/img/House.png"><h2>Thematic Corporate Bond</h2><br><p class="lead mb-0">Diversified exposure to themes across sectors, ratings and geographies.</p></div>
-        </div>
-        <br>
-        <br>
+            <div class="container">
+                <h1 style="font-size: 50px;">Value Propositons</h1>
+                <br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"></div>
+                    <i class="fa-solid fa-cash-register fa-3x" style="color: #2f70ff"></i><h3>Low Transaction Costs</h3><br><p class="lead mb-0">Cutting edge prediction algorithms and market making to to eliminate bid-ask spread.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"></div>
+                    <i class="fa-solid fa-cloud-moon fa-3x" style="color: #2f70ff"></i><h3>Accurate Theme Exposure</h3><br><p class="lead mb-0">Cross market activity leveraged to correctly identify replacement bonds.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"></div>
+                    <i class="fa-solid fa-house fa-3x" style="color: #2f70ff"></i><h3>Thematic Corporate Bond</h3><br><p class="lead mb-0">Diversified exposure to themes across sectors, ratings and geographies.</p></div>
+                </div>
+            </div>
 
-        <div class="container12">
-            <div><img src="assets/img/water drop.png"><h2>Liquidity</h2><br><p class="lead mb-0">In-house liquidity prediction algorithms for accurate tracking.</p></div>
-            <div><img src="assets/img/Account Tree.png"><h2>Straight through execution</h2><br><p class="lead mb-0">Automated order management and portfolio management on exchanges.</p></div>
-            <div><img src="assets/img/Head with gear.png"><h2>Artificial Intelligence Powered</h2><br><p class="lead mb-0">Data central uses deep learning to address bond illiquidity and high bid-ask spreads.</p></div>
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex"></div>
+                        <i class="fa-solid fa-droplet fa-3x" style="color: #2f70ff"></i><h3>Liquidity</h3><br><p class="lead mb-0">In-house liquidity prediction algorithms for accurate tracking.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex"></div>
+                        <i class="fa-solid fa-file-invoice-dollar fa-3x" style="color: #2f70ff"></i><h3>Straight through execution</h3><br><p class="lead mb-0">Automated order management and portfolio management on exchanges.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex"></div>
+                        <i class="fa-solid fa-robot fa-3x" style="color: #2f70ff"></i><h3>Artificial Intelligence</h3><br><p class="lead mb-0">Data central uses deep learning to address bond illiquidity and high bid-ask spreads.</p></div>
+                    </div>
+                </div>
+
         </div>
     </div>
         </section>
@@ -183,7 +213,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
                         <h2 class="mb-4">Request Preview</h2>
-
+                        <a class="btn btn-primary" href="forms.html" target="blank">Request Preview</a>
                         <!-- <iframe src="https://www.powr.io/contact-form/i/31495386#page"  he"></iframe> -->
                         
                         <!-- <div class="form1">
